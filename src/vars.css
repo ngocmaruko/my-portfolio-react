@@ -1,11 +1,13 @@
 :root {
-  /* Colours */
-  --color-text: #fff;
-  --color-primary: #576cbc;
-  --color-secondary: #19376d;
-  --color-dark: #0b2447;
-  --color-bg: #04152d;
+  --color-text: #7D655E; /* Darker beige for text */
+  --color-primary: #F2E4D7; /* Elegant beige color */
+  --color-secondary: #FFF; /* White */
+  --color-dark: #BC8F8F; /* Dark beige-based color */
+  --font-roboto: "Open Sans", sans-serif; /* Font family */
+}
 
-  /* Fonts */
-  --font-roboto: "Roboto";
+body {
+  background: linear-gradient(to bottom right, var(--color-primary), var(--color-secondary));
+  color: var(--color-text);
+  font-family: var(--font-roboto);
 }
